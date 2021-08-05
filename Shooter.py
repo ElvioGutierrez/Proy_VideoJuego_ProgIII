@@ -202,7 +202,7 @@ while running:
    running = False
   elif event.type == pygame.KEYDOWN:
    if event.key == pygame.K_SPACE:
-    player.shoot()
+    player.shoot() 
  all_sprites.update()
  #colisiones - balloons - laser
  hits = pygame.sprite.groupcollide(balloons_list, bullets, True, True)
